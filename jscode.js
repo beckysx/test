@@ -5,6 +5,7 @@ var change=function()
 
 
 
+var abc=document.createElement("part1")
 
 
 }
