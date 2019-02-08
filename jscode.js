@@ -9,3 +9,19 @@ var abc=document.createElement("part1")
 
 
 }
+
+
+var great=function()
+{
+  var c=document.createElement('sroty')
+  sroty.innerHTML=
+  <form >
+  <input type="radio" name="story1" value="1">
+  <input type="radio" name="story1" value="2">
+  <input type="radio" name="story1" value="3">
+  </form>
+
+
+
+
+}
