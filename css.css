@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Karla|Staatliches')
+@import url(https://fonts.googleapis.com/css?family=Karla|Staatliches)
 
 font-family: 'Karla', sans-serif;
 font-family: 'Staatliches', cursive;
 
 body{
-  background-image: url(https://beckysx.github.io/test/bg1.png);
+  background-image: url(bg1.png);
+  font-family: 'Karla', sans-serif;
 
 }
