@@ -1,1 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Staatliches')
 
+font-family: 'Karla', sans-serif;
+font-family: 'Staatliches', cursive;
+
+body{
+  background-image: url(bg1.png);
+}
+  

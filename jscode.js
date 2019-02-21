@@ -4,9 +4,7 @@ var change = function() {
   let b = Array.from(a)
   b.forEach(function(d,index) {
     b[index]=b[index].outerText;
-    alert(b[index])
-
-    a[index].innerHTML=b[index].length
+    a[index].innerHTML="big "+b[index]
 
 
   })
