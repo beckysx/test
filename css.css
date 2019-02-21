@@ -1,10 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Karla|Staatliches)
-
-font-family: 'Karla', sans-serif;
-font-family: 'Staatliches', cursive;
+  font-family: 'Nova Flat', cursive;
 
 body{
-  background-image: url(bg1.png);
   font-family: 'Karla', sans-serif;
 
 }
@@ -65,9 +62,9 @@ h1{
   font-size: 50px;
   display: -webkit-box;
   margin: -10px;
-  font-family: fantasy;
   -webkit-transform: rotate(90deg);
   padding: 20px;
   background-color: #BAABAB;
   padding-left: 400px;
+  font-family: cursive;
 }
