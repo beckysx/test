@@ -12,40 +12,39 @@ body{
 /* header */
 
 div.header{
-  text-align: center;
   font-family: cursive;
 }
 
 img.person_image{
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   border-radius: 100px;
   position: relative;
   left: 20px;
-  top: 20px;
+  top: 40px;
 }
 
 span.username{
   font-family: cursive;
   font-size: 25px;
   position: relative;
-  left: 110px;
-  top: -20px;
+  left: 130px;
   border-bottom: dotted;
   border-bottom-right-radius: 50px;
-  padding-right: 20px;
+  padding-right: 40px;
+  padding-bottom: 3px;
 
 }
 
 div.nav{
     position: relative;
-    top: -75px;
+    top: -70px;
     font-size: 20px;
-    left: 250px;
+    left: 300px;
 }
 
 a{
-  padding-right: 20px;
+  padding-right: 40px;
   color: black;
   text-transform: uppercase;
 
@@ -53,4 +52,22 @@ a{
 
 a:hover{
   color: #cc3333;
+}
+
+
+
+
+/* home page 字体样式 */
+h1{
+  position: relative;
+  left: 500px;
+  top: 500px;
+  font-size: 50px;
+  display: -webkit-box;
+  margin: -10px;
+  font-family: fantasy;
+  -webkit-transform: rotate(90deg);
+  padding: 20px;
+  background-color: #BAABAB;
+  padding-left: 400px;
 }
