@@ -71,16 +71,16 @@ a:hover{
 h1{
           position: relative;
           left: 500px;
-          top: 500px;
+          top: 665px;
           font-size: 50px;
           display: -webkit-box;
           margin: -10px;
           -webkit-transform: rotate(90deg);
           padding: 20px;
-          background-color: #BAABAB;
-          padding-left: 400px;
+          padding-left: 300px;
           font-family: 'Orbitron', cursive;
-          font-family:
+          background-image: url('header.png');
+
 }
 
 
@@ -115,6 +115,7 @@ div.day-box{
           position: relative;
           left: 350px;
           margin-bottom: 30px;
+          background-image: url('complete.png');
 }
 
 
@@ -126,7 +127,7 @@ div.day{
         font-size: 25px;
         width: 200px;
         display: -webkit-box;
-        top: -40px;
+        top: 20px;
         position: absolute;
         height: 40px;
         left: 10px
@@ -141,8 +142,10 @@ div.notes{
 
 .reading-box{
         left: 210px;
+        top: 20px;
         position: relative;
         margin-left: 20px;
+        margin-bottom: 50px;
         width: 450px;
         background:rgba(255, 255, 255, 0.5);
 
@@ -155,7 +158,9 @@ div.reading{
 }
 
 div.assignment-label{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
         border-bottom: dotted;
         width: 60px;
         border-bottom-right-radius: 20px;
@@ -183,6 +188,7 @@ div.assignment-title{
         width: 450px;
         background:rgba(255, 255, 255, 0.5);
         margin-left: 20px;
+        top: -10px;
       }
 
 
