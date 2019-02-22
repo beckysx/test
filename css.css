@@ -94,13 +94,13 @@ h1{
 div.day-box{
           display: block;
           width: 710px;
+          margin-bottom: 100px;
 
 }
 
 .PREP{
           position: relative;
           left: 120px;
-          top: -40px;
           margin-bottom: 30px;
           background-image: url('prep.png');
 }
@@ -108,25 +108,14 @@ div.day-box{
 .CURRENT{
           position: relative;
           left: 120px;
-          top: -20px;
           margin-bottom: 120px;
 }
 
 .COMPLETED{
           position: relative;
           left: 350px;
-          top: -20px;
           margin-bottom: 30px;
 }
-
-.ASSIGNED{
-  background-color: pink;
-}
-
-.GRADED{
-  background-color: green;
-}
-
 
 
 
@@ -153,14 +142,16 @@ div.notes{
 .reading-box{
         left: 210px;
         position: relative;
-        margin-top: 70px;
-        margin-bottom: 20px;
         margin-left: 20px;
         width: 450px;
+        background:rgba(255, 255, 255, 0.5);
+
 }
 
 div.reading{
         margin-bottom: 10px;
+
+
 }
 
 div.assignment-label{
@@ -182,6 +173,7 @@ div.assignment-title{
         margin-bottom: 20px;
         width: 450px;
         margin-left: 20px;
+        background:rgba(255, 255, 255, 0.5)
 }
 
 
@@ -191,7 +183,7 @@ div.assignment-title{
         position: relative;
         margin-bottom: 20px;
         width: 450px;
-
+        background:rgba(255, 255, 255, 0.5)
         margin-left: 20px;
 }
 
@@ -201,4 +193,5 @@ div.assignment-title{
         margin-bottom: 20px;
         width: 450px;
         margin-left: 20px;
+        background:rgba(255, 255, 255, 0.5)
 }
