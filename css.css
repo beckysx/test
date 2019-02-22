@@ -236,7 +236,33 @@ form.account_form{
           margin: 40px;
           line-height: 90px;
           font-size: 25px;
-          width: 1600px;
+          width: 1000px;
+}
+
+.title{
+          font-family: 'Cinzel', serif;
+          font-weight: bolder;
+}
+
+label{
+  margin-right: 40px;
+}
+
+form.account_form input{
+            margin-right: 20px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0);
+            vertical-align: text-bottom;
+            border-bottom: dotted;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom-right-radius: 30px;
+            border-width: 2px;
+            font-family: inherit;
+            font-size: 20px;
+            padding-left: 30px;
+
 }
 
 
