@@ -1,54 +1,63 @@
 @import url(https://fonts.googleapis.com/css?family=Karla|Staatliches)
   font-family: 'Nova Flat', cursive;
+@import url(https://fonts.googleapis.com/css?family=Orbitron)
+font-family: 'Orbitron', sans-serif;
 
 body{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla', cursive;
 
 }
 
 /* header */
 
 div.header{
-  font-family: cursive;
+            font-family: cursive;
 }
 
 img.person_image{
-  height: 90px;
-  width: 90px;
-  border-radius: 100px;
-  position: relative;
-  left: 20px;
-  top: 40px;
+            height: 90px;
+            width: 90px;
+            border-radius: 100px;
+            position: relative;
+            left: 20px;
+            top: 40px;
 }
 
 span.username{
-  font-family: cursive;
-  font-size: 25px;
-  position: relative;
-  left: 130px;
-  border-bottom: dotted;
-  border-bottom-right-radius: 50px;
-  padding-right: 40px;
-  padding-bottom: 3px;
+            font-family: cursive;
+            font-size: 25px;
+            position: relative;
+            left: 130px;
+            border-bottom: dotted;
+            border-bottom-right-radius: 50px;
+            padding-right: 40px;
+            padding-bottom: 3px;
 
 }
 
 div.nav{
-    position: relative;
-    top: -70px;
-    font-size: 20px;
-    left: 300px;
+            position: relative;
+            top: -70px;
+            font-size: 20px;
+            left: 300px;
 }
 
 a{
-  padding-right: 40px;
-  color: black;
-  text-transform: uppercase;
+            padding-right: 40px;
+            color: black;
+}
 
+nav a{
+            text-transform: uppercase;
+}
+
+
+a.assignment_link{
+  text-decoration: none;
 }
 
 a:hover{
-  color: #cc3333;
+            color: #cc3333;
 }
 
 
@@ -56,15 +65,135 @@ a:hover{
 
 /* home page 字体样式 */
 h1{
-  position: relative;
-  left: 500px;
-  top: 500px;
-  font-size: 50px;
-  display: -webkit-box;
-  margin: -10px;
-  -webkit-transform: rotate(90deg);
-  padding: 20px;
-  background-color: #BAABAB;
-  padding-left: 400px;
-  font-family: cursive;
+          position: relative;
+          left: 500px;
+          top: 500px;
+          font-size: 50px;
+          display: -webkit-box;
+          margin: -10px;
+          -webkit-transform: rotate(90deg);
+          padding: 20px;
+          background-color: #BAABAB;
+          padding-left: 400px;
+          font-family: 'Orbitron', cursive;
+          font-family:
+}
+
+
+
+
+
+
+
+/* Day-box */
+
+div.day-box{
+          display: block;
+          width: 710px;
+
+}
+
+.PREP{
+          position: relative;
+          left: 120px;
+          top: -40px;
+          margin-bottom: 30px;
+}
+
+.CURRENT{
+          position: relative;
+          left: 120px;
+          top: -20px;
+          margin-bottom: 120px;
+}
+
+.COMPLETED{
+          position: relative;
+          left: 350px;
+          top: -20px;
+          margin-bottom: 30px;
+}
+
+.ASSIGNED{
+  background-color: pink;
+}
+
+.GRADED{
+  background-color: green;
+}
+
+
+
+
+
+
+/* 日期 */
+div.day{
+        font-size: 25px;
+        width: 200px;
+        display: -webkit-box;
+        top: -40px;
+        position: absolute;
+        height: 40px;
+        left: 10px
+}
+
+div.notes{
+        font-size: 15px;
+        width: 200px;
+        position:absolute;
+        top: 60px;
+}
+
+.reading-box{
+        left: 210;
+        position: relative;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 450px;
+}
+
+div.reading{
+        margin-bottom: 10px;
+}
+
+div.assignment-label{
+        font-size: 20px;
+        border-bottom: dotted;
+        width: 60px;
+        border-bottom-right-radius: 20px;
+        margin-bottom: 10px;
+        border-width: 1px;
+}
+
+div.assignment-title{
+        text-decoration: underline;
+}
+
+.prep-box{
+        left: 210;
+        position: relative;
+        margin-bottom: 20px;
+        width: 450px;
+        margin-left: 20px;
+}
+
+
+
+.lab-box{
+        left: 210;
+        position: relative;
+        margin-bottom: 20px;
+        width: 450px;
+
+        margin-left: 20px;
+}
+
+.grading-box{
+        left: 210;
+        position: relative;
+        margin-bottom: 20px;
+        width: 450px;
+        margin-left: 20px;
 }
