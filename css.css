@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Karla|Staatliches')
-  font-family: 'Nova Flat', cursive;
-@import url('https://fonts.googleapis.com/css?family=Orbitron')
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Poiret+One');
+
+/*
+font-family: 'Playfair Display', serif;
 font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Cinzel', serif;*/
 
 body{
-  font-family: 'Karla', cursive;
-
+   font-family: 'Poiret One', cursive;
+   font-size: 18px;
+   background-image: url(body.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 1600px;
+   max-width: 1700px;
 }
 
 
@@ -15,6 +23,7 @@ div.header{
             font-family: cursive;
             background-image: url("header.png");
             opacity: 20%;
+            background-size: 1420px;
 }
 
 img.person_image{
@@ -35,14 +44,15 @@ span.username{
             border-bottom-right-radius: 50px;
             padding-right: 40px;
             padding-bottom: 3px;
+            font-family: 'Cinzel', serif;
 
 }
 
 div.nav{
             position: relative;
             top: -70px;
-            font-size: 20px;
-            left: 300px;
+            font-size: 25px;
+            left: 330px;
 }
 
 a{
@@ -51,8 +61,8 @@ a{
             cursor: url("selection.ico"),auto;
 }
 
-nav a{
-            text-transform: uppercase;
+div.nav a{
+            font-family: 'Cinzel', serif;
 }
 
 
@@ -69,17 +79,15 @@ a:hover{
 
 /* home page 字体样式 */
 h1{
-          position: relative;
-          left: 500px;
-          top: 665px;
+          position: fixed;
+          left: 1100px;
+          top: 300px;
           font-size: 50px;
           display: -webkit-box;
-          margin: -10px;
           -webkit-transform: rotate(90deg);
-          padding: 20px;
-          padding-left: 300px;
-          font-family: 'Orbitron', cursive;
-          background-image: url('header.png');
+          font-family: 'Cinzel', serif;
+          font-weight: black;
+          background:rgba(255, 255, 255, 0);
 
 }
 
@@ -100,8 +108,9 @@ div.day-box{
 .PREP{
           position: relative;
           left: 120px;
-          margin-bottom: 30px;
           background-image: url('prep.png');
+          background-size: 650px;
+          top: 60px;
 }
 
 .CURRENT{
@@ -109,6 +118,7 @@ div.day-box{
           left: 120px;
           margin-bottom: 120px;
           background-image: url('current.png');
+          background-size: 700px;
 }
 
 .COMPLETED{
@@ -116,6 +126,7 @@ div.day-box{
           left: 350px;
           margin-bottom: 30px;
           background-image: url('complete.png');
+          background-size: 800px;
 }
 
 
@@ -130,14 +141,18 @@ div.day{
         top: 20px;
         position: absolute;
         height: 40px;
-        left: 10px
+        left: 10px;
+        font-family: 'Orbitron', sans-serif;
+        line-height: 40px;
 }
 
 div.notes{
         font-size: 15px;
-        width: 200px;
+        width: 120px;
         position:absolute;
-        top: 60px;
+        top: 100px;
+        background:rgba(255, 255, 255, 0.5);
+        padding-right: 80px;
 }
 
 .reading-box{
@@ -148,6 +163,7 @@ div.notes{
         margin-bottom: 50px;
         width: 450px;
         background:rgba(255, 255, 255, 0.5);
+        padding-left: 15px;
 
 }
 
@@ -165,7 +181,10 @@ div.assignment-label{
         width: 60px;
         border-bottom-right-radius: 20px;
         margin-bottom: 10px;
-        border-width: 1px;
+        padding-right: 20px;
+        border-width: 2px;
+        font-family: 'Cinzel', serif;
+        font-weight:normal;
 }
 
 div.assignment-title{
@@ -177,7 +196,8 @@ div.assignment-title{
         position: relative;
         width: 450px;
         margin-left: 20px;
-        background:rgba(255, 255, 255, 0.5)
+        background:rgba(255, 255, 255, 0.5);
+        padding-left: 15px;
 }
 
 
@@ -189,6 +209,7 @@ div.assignment-title{
         background:rgba(255, 255, 255, 0.5);
         margin-left: 20px;
         top: -10px;
+        padding-left: 15px;
       }
 
 
@@ -198,5 +219,8 @@ div.assignment-title{
         margin-bottom: 20px;
         width: 450px;
         margin-left: 20px;
-        background:rgba(255, 255, 255, 0.5)
+        background:rgba(255, 255, 255, 0.5);
+        padding-left: 15px;
+        padding-bottom:15px;
+        padding-top: 15px;
 }
