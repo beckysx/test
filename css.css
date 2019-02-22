@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Karla|Staatliches)
+@import url('https://fonts.googleapis.com/css?family=Karla|Staatliches')
   font-family: 'Nova Flat', cursive;
-@import url(https://fonts.googleapis.com/css?family=Orbitron)
+@import url('https://fonts.googleapis.com/css?family=Orbitron')
 font-family: 'Orbitron', sans-serif;
 
 body{
@@ -8,10 +8,13 @@ body{
 
 }
 
+
 /* header */
 
 div.header{
             font-family: cursive;
+            background-image: url("header.png");
+            opacity: 20%;
 }
 
 img.person_image{
@@ -45,6 +48,7 @@ div.nav{
 a{
             padding-right: 40px;
             color: black;
+            cursor: url("selection.ico"),auto;
 }
 
 nav a{
@@ -98,6 +102,7 @@ div.day-box{
           left: 120px;
           top: -40px;
           margin-bottom: 30px;
+          background-image: url('prep.png');
 }
 
 .CURRENT{
@@ -146,7 +151,7 @@ div.notes{
 }
 
 .reading-box{
-        left: 210;
+        left: 210px;
         position: relative;
         margin-top: 70px;
         margin-bottom: 20px;
@@ -172,7 +177,7 @@ div.assignment-title{
 }
 
 .prep-box{
-        left: 210;
+        left: 210px;
         position: relative;
         margin-bottom: 20px;
         width: 450px;
@@ -182,7 +187,7 @@ div.assignment-title{
 
 
 .lab-box{
-        left: 210;
+        left: 210px;
         position: relative;
         margin-bottom: 20px;
         width: 450px;
@@ -191,7 +196,7 @@ div.assignment-title{
 }
 
 .grading-box{
-        left: 210;
+        left: 210px;
         position: relative;
         margin-bottom: 20px;
         width: 450px;
