@@ -26,7 +26,7 @@ div.header{
             background-size: 1420px;
 }
 
-img.person_image{
+div.header img.person_image{
             height: 90px;
             width: 90px;
             border-radius: 100px;
@@ -223,4 +223,31 @@ div.assignment-title{
         padding-left: 15px;
         padding-bottom:15px;
         padding-top: 15px;
+}
+
+
+
+
+
+
+/* Account  */
+
+form.account_form{
+          margin: 40px;
+          line-height: 90px;
+          font-size: 25px;
+          width: 1600px;
+}
+
+
+
+
+
+form.account_form img.person_image{
+            height: 90px;
+            width: 90px;
+            border-radius: 100px;
+            position: relative;
+            left: 20px;
+            top: 40px;
 }
