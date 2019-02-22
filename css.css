@@ -10,7 +10,7 @@ body{
    font-family: 'Poiret One', cursive;
    font-size: 18px;
    background-image: url(body.png);
-   background-repeat: no-repeat;
+   background-repeat:repeat;
    background-attachment: fixed;
    background-size: 1600px;
    max-width: 1700px;
