@@ -1,0 +1,148 @@
+<HTML>
+  <head><title>
+
+    Assignment
+
+    </title>
+
+<link rel="stylesheet" type="text/css" href="css.css">
+
+<link rel="stylesheet" type="text/css" href="/css/seating.css">
+
+  </head>
+  <body>
+    <div class="header">
+
+      <div class="person_info">
+  <img src="/img/students/student21.png"  class="person_image" />
+  <audio id="nameSound21">
+    <source src="/names/student21.png" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound21").play()''
+    >
+  </div>
+
+  <span class="username">
+    Becky Song
+  </span>
+
+</div>
+
+        <div class="nav">
+        <a  href="\logout">logout</a>
+        <a href="\updateAccount">myAccount</a>
+        <a href="\home">Home</a>
+        <a href="\classMates">ClassMates</a>
+        <a href="\seating">Seating</a>
+
+      </div>
+
+    </div>
+<form class="assignment_form" action="/assignment/391" method="post">
+
+<input type="hidden" name="assignment_text_url" value="0">
+
+<div class="assignment_title">
+  Submit Project 1 links
+  </div>
+<div class="assignment_prompt">
+Please submit 2 links
+<ol>
+<li>Your CSS for project 1</li>
+<li>A web page that details the features and design decisions that you made for your project</li>
+</ol></div>
+
+<textarea class="input_text" name="assignment_text_text">
+</textarea>
+
+<p>Once you have finished your assignment, please evaluate your work below.
+Be sure to fill out the comments, especially if you did something interesting
+and want people to take notice.
+</p>
+<div class="rubric_score">
+
+  <table>
+  <tr>
+  <th>Score
+  </th>
+  <th>Description
+  </th>
+  </tr>
+  <tr>
+  <td>
+  0<input type="radio" name="assignment_text_score" value="0"
+                >
+  </td>
+  <td>
+  Did not do the assignment.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  4<input type="radio" name="assignment_text_score" value="5"
+                >
+ </td>
+  <td>
+  Some work present but clearly did not complete the background reading.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  6<input type="radio" name="assignment_text_score" value="6"
+            >
+</td>
+  <td>
+  Does not meet the requirements, but work clearly indicates that they worked through the reading.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  7<input type="radio" name="assignment_text_score" value="7"
+            >
+  </td>
+  <td>
+  As above, but very pertinent questions are in the notes on where difficulty arose.
+  </td>
+  </tr>
+  <tr>
+  <td>
+    8<input type="radio" name="assignment_text_score" value="8"
+            >
+  </td>
+  <td>
+  Meets all requirements of the assignment
+  </td>
+  </tr>
+  <tr>
+  <td>
+  9<input type="radio" name="assignment_text_score" value="9"
+        >
+  </td>
+  <td>
+  Surpasses the assignment or has very pertinent questions in the notes
+  </td>
+  </tr>
+  <tr>
+  <td>
+  10<input type="radio" name="assignment_text_score" value="10"
+        >
+  </td>
+  <td>
+  Surpasses the assignment and contains a Critical viewpoint that must be shared
+  with the class.  You and your partner will present it.
+  </td>
+  </tr>
+  </table>
+</div>
+
+
+<textarea name="assignment_text_comments" rows="8" cols="80">
+
+</textarea>
+
+<input type="submit" name="assignment_submit" value="SUBMIT">
+
+</form>
+  </body>
+</HTML>
