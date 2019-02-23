@@ -236,7 +236,7 @@ form.account_form{
           margin: 40px;
           line-height: 90px;
           font-size: 25px;
-          width: 1000px;
+          max-width: 1400px;
 }
 
 .title{
@@ -245,35 +245,70 @@ form.account_form{
 }
 
 label{
-  margin-right: 40px;
+  margin-right: 30px;
+  font-weight: bolder;
+  float: left;
+}
+
+input:hover{
+  color: #cc3333
 }
 
 form.account_form input{
             margin-right: 20px;
             height: 30px;
-            background: rgba(255, 255, 255, 0);
-            vertical-align: text-bottom;
+            background: rgba(255, 255, 255, 0.5);
             border-bottom: dotted;
             border-left: none;
             border-right: none;
             border-top: none;
             border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
             border-width: 2px;
             font-family: inherit;
             font-size: 20px;
             padding-left: 30px;
-
+            padding-right: 30px;
+            cursor: url("selection.ico"),auto;
+            float: left;
+            position: relative;
+            top: 30px;
 }
 
 
-
+              label:nth-of-type(4){
+                clear: both;
+              }
+              label:nth-of-type(5){
+                clear: both;
+              }
+              label:nth-of-type(6){
+                clear: both;
+              }
+              label:nth-of-type(7){
+                clear: both;
+              }
+              label:nth-of-type(8){
+                clear: both;
+              }
+              input:nth-of-type(6){
+                        width: 400px;
+                        position: relative;
+                        left: 130px;
+                   }
+              input:nth-of-type(7){
+                                     width: 400px;
+                                }
+              input:nth-of-type(8){
+                                     width: 400px;
+                                }
 
 
 form.account_form img.person_image{
-            height: 90px;
-            width: 90px;
-            border-radius: 100px;
-            position: relative;
-            left: 20px;
-            top: 40px;
+              height: 70px;
+              width: 70px;
+              border-radius: 100px;
+              position: absolute;
+              right: 1070px;
+              top: 570px;
 }
