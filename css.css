@@ -1,31 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Orbitron|Playfair+Display|Quattrocento');
 
 /*
 font-family: 'Playfair Display', serif;
 font-family: 'Orbitron', sans-serif;
-font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
 font-family: 'Cinzel', serif;*/
 
+/*  https://mcallisterd.github.io/CSS_website-fix/css.css */
+
+
+
+/*
+Changed max-width to 1300 so there isn't a scroll wheel at the bottom
+of every page.
+*/
 body{
-   font-family: 'Poiret One', cursive;
    font-size: 18px;
    background-image: url(body.png);
    background-repeat:repeat;
    background-attachment: fixed;
    background-size: 1600px;
-   max-width: 1300px;
-   background-attachment: fixed;
+   max-width: 1200px;
+   font-family: 'Quattrocento', sans-serif;
 }
 
 
 /* header */
 
+/*Position relative and top/left are to make the header touch
+the top and left of the browser window */
 div.header{
             font-family: cursive;
             background-image: url("header.png");
             opacity: 20%;
-            background-size: 1420px;
-
+            background-size: 1200px;
+            position: relative;
+            top: -10px;
+            left: -12px;
+            background-repeat:no-repeat;
+            width: 1200px;
+            border-bottom-right-radius: 100px;
+            opacity: 0.6;
 }
 
 div.header img.person_image{
@@ -34,11 +49,10 @@ div.header img.person_image{
             border-radius: 100px;
             position: relative;
             left: 160px;
-            top: 50px;
+            top: 30px;
 }
 
-span.username{
-            font-family: cursive;
+div.header span.username{
             font-size: 25px;
             position: relative;
             left: 130px;
@@ -243,7 +257,7 @@ form.account_form{
           font-weight: bolder;
 }
 
-label{
+form.account_form label{
   margin-right: 30px;
   font-weight: bolder;
   float: left;
@@ -275,8 +289,8 @@ form.account_form input{
 }
 
               label:nth-of-type(3){
-  clear: both;
-}
+                clear: both;
+              }
               label:nth-of-type(4){
                 clear: both;
               }
@@ -310,9 +324,10 @@ form.account_form img.person_image{
               width: 70px;
               border-radius: 100px;
               position: relative;
-              right: 770px;
-              top: 250px;
+              right: 620px;
+              top: 370px;
 }
+
 
 
 
@@ -332,29 +347,142 @@ td span.username{
 }
 
 /*Make the picture for lab partner and grading smaller */
-div.login image.person_image {
-  height: 200px;
-  width: 200px;
+div.login img.person_image {
+              height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            position: relative;
+            top: 100px;
+            left: 140px;
+}
+
+div.login div.person_info div.sound{
+                position: relative;
+              left: 250px;
+              top: 50px;
+}
+
+div.login div.person_info span.username{
+              position: relative;
+                top: 10px;
+                left: 300px;
+}
+
+div.login div.username{
+              position: relative;
+                top: 50px;
+                left: 150px;
+                font-size: 20px;
+}
+
+div.login input[name=username0]{
+                  background: rgba(255, 255, 255, 0.5);
+                border-bottom: dotted;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom-right-radius: 30px;
+                border-top-left-radius: 30px;
+                border-width: 1px;
+                font-family: inherit;
+                font-size: 15px;
+                padding-left: 30px;
+                cursor: url(selection.ico),auto;
+                position: relative;
+                left: 20px;
+                top: -3px;
+}
+
+div.login > div:nth-of-type(3){
+
+  position: relative;
+top: 80px;
+left: 150px;
+}
+
+div.login > div:nth-of-type(3) label{
+  font-family: 'Cinzel', serif;
+font-size: 20px;
+}
+
+input[name=password0]{
+            background: rgba(255, 255, 255, 0.5);
+              border-bottom: dotted;
+              border-left: none;
+              border-right: none;
+              border-top: none;
+              border-bottom-right-radius: 30px;
+              border-top-left-radius: 30px;
+              border-width: 1px;
+              font-family: inherit;
+              font-size: 15px;
+              padding-left: 30px;
+              cursor: url(selection.ico),auto;
+              position: relative;
+              left: 20px;
+
+}
+
+div.login input[type=submit]{
+              background: rgba(255, 255, 255, 0.5);
+            border-bottom: dotted;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-width: 1px;
+            font-family: inherit;
+            font-size: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 20px;
+            cursor: url(selection.ico),auto;
+            position: relative;
+            left: 400px;
+            top: 100px;
+
 }
 
 /*Making the audio button visible */
-div.sound{
-  height:50px;
-  width:50px;
+div.person_info div.sound{
+
+            background-image:url(soundbutton.png);
+            background-size: cover;
+            border-radius:100px;
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: -30px;
+}
+
+
+/* general sound button positioning in the header */
+div.header div.sound{
+  position:relative;
+  top: 40px;
+  left: 50px;
+  position: relative;
+  border-radius: 100px;
+  height:40px;
+  width:40px;
   background-image:url(soundbutton.png);
   background-size: cover;
 }
 
-div.header div.sound{
-  position:relative;
-  top: 40px;
-  left: 30px;
-}
+/* seating page */
 
 div.header+svg{
-  background-color:black;
+  background-color: rgba(0,0,0,.5);
   background-size: cover;
+  height:500px;
+  border:dotted;
+  border-radius:80px;
+  margin: 50px;
+  margin-left: 200px;
 }
+
+
 
 
 
@@ -369,7 +497,7 @@ form.assignment_form{
     font-size: 25px;
     font-style: italic;
     border-bottom: dotted;
-    width: 600px;
+    width: 300px;
     border-bottom-right-radius: 20px;
     margin-bottom: 10px;
     padding-right: 20px;
@@ -382,17 +510,16 @@ form.assignment_form{
 
 .assignment-title{
   text-decoration: none;
-    font-size: 25px;
-    font-style: italic;
-    border-bottom: dotted;
-    width: 600px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 10px;
-    padding-right: 20px;
-    border-width: 2px;
-    font-family: 'Cinzel', serif;
-    font-weight: normal;
-    margin-top: 50px;
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: dotted;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  margin-top: 30px;
+  padding-right: 10px;
 
 }
 
@@ -439,7 +566,7 @@ textarea.input_text{
                 border-top-left-radius: 30px;
                 position: absolute;
                 left: 750px;
-                top: 325px;
+                top: 330px;
                 cursor: url("selection.ico"),auto;
                 padding-top: 20px;
 }
@@ -521,7 +648,76 @@ table.grade-table{
 }
 
 table.grade-table td{
-  padding-left: 20px;
-  padding-right: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+}
 
+/*Keep the grading rubic area to the left so if the input box has to extend
+down they don't overlap*/
+
+div.rubric_score{
+            width:600px;
+}
+
+textarea.input_text+p{
+            width:600px;
+            position:relative;
+            left:40px;
+}
+
+
+
+
+
+/* classmate table */
+
+
+h1+table{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        font-family: 'Cinzel', serif;
+}
+
+th{
+        font-size: 25px;
+        padding: 20px;
+}
+
+div.person_info img.person_image{
+  height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+th:first-of-type{
+      width: 600px;
+
+}
+
+td div.person_info span.username {
+          font-size: 18px;
+          position: relative;
+          left: 110px;
+          border-bottom: dotted;
+          border-width: 2px;
+          border-bottom-right-radius: 50px;
+          padding-right: 20px;
+          padding-bottom: 0.5px;
+          font-family: 'Cinzel', serif;
+          top: -70px;
+
+}
+
+td div.person_info{
+
+          position: relative;
+          left: 200px;
+          padding-top: 20px;
+}
+
+tbody tr td:last-of-type{
+          position: relative;
+          font-size: 20px;
+          top: 15px;
 }
