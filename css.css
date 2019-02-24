@@ -690,7 +690,7 @@ div.person_info img.person_image{
     border-radius: 100px;
 }
 
-th:first-of-type{
+h1 + table tbody tr th:first-of-type{
       width: 600px;
 
 }
@@ -716,7 +716,7 @@ td div.person_info{
           padding-top: 20px;
 }
 
-tbody tr td:last-of-type{
+h1 + table tbody tr td:last-of-type{
           position: relative;
           font-size: 20px;
           top: 15px;
