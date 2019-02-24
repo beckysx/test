@@ -1,0 +1,86 @@
+<HTML>
+  <head><title>
+
+    Partner Login
+
+    </title>
+
+<link rel="stylesheet" type="text/css" href="css.css">
+
+<link rel="stylesheet" type="text/css" href="/css/seating.css">
+
+  </head>
+  <body>
+    <div class="header">
+
+      <div class="person_info">
+  <img src="/img/students/student21.png"  class="person_image" />
+  <audio id="nameSound21">
+    <source src="/names/student21.png" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound21").play()''
+    >
+  </div>
+
+  <span class="username">
+    Becky Song
+  </span>
+
+</div>
+
+        <div class="nav">
+        <a  href="\logout">logout</a>
+        <a href="\updateAccount">myAccount</a>
+        <a href="\home">Home</a>
+        <a href="\classMates">ClassMates</a>
+        <a href="\seating">Seating</a>
+
+      </div>
+
+    </div>
+
+
+
+
+    <form action="/partnerLogin" method="post">
+
+
+
+
+
+      <div class="login">
+        <div class="person_info">
+  <img src="/img/students/student8.png"  class="person_image" />
+  <audio id="nameSound8">
+    <source src="/names/horse.ogg" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound8").play()''
+    >
+  </div>
+
+  <span class="username">
+    Noel Dingle
+  </span>
+
+</div>
+        <div class="username">
+          Noel Dingle
+
+          <input readonly="true" type="text" name="username0" value="noel.dingle"/>
+        </div>
+        <div><label>password</label>
+          <input autocomplete="off" type="text" style="text-security:disc; -webkit-text-security:disc;" name="password0"" />
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Log In" />
+      </div>
+
+    </form>
+
+
+  </body>
+</HTML>
