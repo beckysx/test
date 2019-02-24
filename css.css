@@ -423,7 +423,7 @@ input[name=password0]{
 
 }
 
-div.login input[type=submit]{
+form[action=/partnerLogin] > div:nth-child(2) input{
               background: rgba(255, 255, 255, 0.5);
             border-bottom: dotted;
             border-left: none;
