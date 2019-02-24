@@ -428,7 +428,7 @@ input[name=password0]{
 
 }
 
-form[action=/partnerLogin] > div:nth-child(2) input{
+input[value='Log In']{
               background: rgba(255, 255, 255, 0.5);
             border-bottom: dotted;
             border-left: none;
@@ -446,7 +446,6 @@ form[action=/partnerLogin] > div:nth-child(2) input{
             position: relative;
             left: 400px;
             top: 100px;
-
 }
 
 /*Making the audio button visible */
