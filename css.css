@@ -363,6 +363,11 @@ div.login div.person_info div.sound{
 }
 
 div.login div.person_info span.username{
+              font-size: 25px;
+              border-bottom: dotted;
+              border-bottom-right-radius: 50px;
+              padding-right: 40px;
+              padding-bottom: 3px;
               position: relative;
                 top: 10px;
                 left: 300px;
