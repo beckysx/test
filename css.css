@@ -636,8 +636,8 @@ textarea[name=assignment_text_comments]{
           padding-top: 15px;
           cursor: url("selection.ico"),auto;
           position: relative;
-          top: 50px;
-          left: 100px;
+          top: -330px;
+          left: 750px;
 }
 
 
@@ -671,8 +671,8 @@ form.assignment_form > input[type=submit]{
           font-size: 15px;
           font-family: 'Orbitron';
           position: relative;
-          top: 30px;
-    left: 120px;
+          top: -270px;
+    left: 650px;
 
 }
 
