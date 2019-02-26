@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<HTML>
+  <head><title>
+
+    Assignment
+
+    </title>
+
+<link rel="stylesheet" type="text/css" href="https://mcallisterd.github.io/CSS_website-fix/css.css">
+
+<link rel="stylesheet" type="text/css" href="/css/seating.css">
+
+  </head>
+  <body>
+    <div class="header">
+
+      <div class="person_info">
+  <img src="/img/students/student21.png"  class="person_image" />
+  <audio id="nameSound21">
+    <source src="/names/student21.png" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound21").play()''
+    >
+  </div>
+
+  <span class="username">
+    Becky Song
+  </span>
+
+</div>
+
+        <div class="partners">
+          Partners
+
+        <div class="person_info">
+  <img src="/img/students/student8.png"  class="person_image" />
+  <audio id="nameSound8">
+    <source src="/names/horse.ogg" type="audio/ogg">
+  </audio>
+  <div class="sound"
+    onclick='document.getElementById("nameSound8").play()''
+    >
+  </div>
+
+  <span class="username">
+    Noel Dingle
+  </span>
+
+    <a href="/partnerLogout/8" >Logout Partner</a>
+
+</div>
+
+        </div>
+
+        <div class="nav">
+        <a  href="\logout">logout</a>
+        <a href="\updateAccount">myAccount</a>
+        <a href="\home">Home</a>
+        <a href="\classMates">ClassMates</a>
+        <a href="\seating">Seating</a>
+
+      </div>
+
+    </div>
+<form class="assignment_form" action="/assignment/356" method="post">
+
+<input type="hidden" name="assignment_text_url" value="0">
+
+<div class="assignment_title">
+  Poor Student Webscrape
+  </div>
+<div class="assignment_prompt">
+<p>Create an in-browser webscrapper, using the console, to collect the following information from centre's website
+</p>
+<ol>
+<li>What are the majors, minors,professional programs and academic offerings at Centre College</li>
+<li>
+What are the classes offered in Computer Science.
+</li>
+</ol>
+
+<p>Provide a webpage that links to js files which depict your solution.  (if you write the js files first you can copy them into the console all in one go).
+</p>
+<p>
+If you are looking to do more, apply this techniques to collect similar information from 2 other colleges.
+</p>
+<p>Recall that you will have to inject a script tag linking to d3 library, before you can scrape.
+</p></div>
+
+<textarea class="input_text" name="assignment_text_text">
+  https://beckysx.github.io/d3-selector/index.html
+</textarea>
+
+<p>Once you have finished your assignment, please evaluate your work below.
+Be sure to fill out the comments, especially if you did something interesting
+and want people to take notice.
+</p>
+<div class="rubric_title">
+  Prep Rubric
+</div>
+<div class="rubric_score">
+
+  <table>
+  <tr>
+  <th>Score
+  </th>
+  <th>Description
+  </th>
+  </tr>
+  <tr>
+  <td>
+  0<input type="radio" name="assignment_text_score" value="0"
+                >
+  </td>
+  <td>
+   Severely malformed HTML/Javascript that doesn't run.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  2<input type="radio" name="assignment_text_score" value="2"
+                >
+  </td>
+  <td>
+  Some work present but clearly did not attempt complete project(less than 75% complete)
+  </td>
+  </tr>
+  <tr>
+  <td>
+  4<input type="radio" name="assignment_text_score" value="4"
+                >
+ </td>
+  <td>
+Does not meet the requirements, but comes very close (over 75% of the work).
+  </td>
+  </tr>
+  <tr>
+  <td>
+  6<input type="radio" name="assignment_text_score" value="6"
+            >
+</td>
+  <td>
+  As above, but oulines all shortcomings in the notes and asks questions that will lead them to a correct solution.
+  </td>
+  </tr>
+  <tr>
+  <td>
+  7<input type="radio" name="assignment_text_score" value="7"
+            >
+  </td>
+  <td>
+    Small flaws in presentation keep the work from being appealing.
+  </td>
+  </tr>
+  <tr>
+  <td>
+    8<input type="radio" name="assignment_text_score" value="8"
+            >
+  </td>
+  <td>
+  Meets all requirements of the assignment
+  </td>
+  </tr>
+  <tr>
+  <td>
+  9<input type="radio" name="assignment_text_score" value="9"
+        >
+  </td>
+  <td>
+  Surpasses the assignment or has very pertinent questions in the notes
+  </td>
+  </tr>
+  <tr>
+  <td>
+  10<input type="radio" name="assignment_text_score" value="10"
+     checked='checked'    >
+  </td>
+  <td>
+  Surpasses the assignment and contains a Critical viewpoint that must be shared
+  with the class.  You and your partner will present it.
+  </td>
+  </tr>
+  </table>
+</div>
+
+
+<textarea name="assignment_text_comments" rows="8" cols="80">
+collects information from 2 other universities
+</textarea>
+
+<input type="submit" name="assignment_submit" value="SUBMIT">
+
+</form>
+  </body>
+</HTML>
