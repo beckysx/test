@@ -20,7 +20,8 @@ body{
    background-repeat:repeat;
    background-attachment: fixed;
    background-size: 1600px;
-   max-width: 1200px;
+   max-width: 1440px;
+   min-width: 1200px;
    font-family: 'Quattrocento', sans-serif;
 }
 
@@ -40,7 +41,7 @@ div.header{
             background-repeat:no-repeat;
             width: 1200px;
             border-bottom-right-radius: 100px;
-            opacity: 0.6;
+            opacity: 0.8;
 }
 
 div.header img.person_image{
@@ -60,7 +61,6 @@ div.header span.username{
             border-bottom-right-radius: 50px;
             padding-right: 40px;
             padding-bottom: 3px;
-            font-family: 'Cinzel', serif;
 
 }
 
@@ -446,6 +446,42 @@ input[value='Log In']{
             position: relative;
             left: 400px;
             top: 100px;
+
+}
+
+div.partner{
+            display: -webkit-box;
+            position: absolute;
+            left: 800px;
+            top: 210px;
+}
+
+div.partner div.person_info img.person_image{
+              height:60px;
+              width: 60px;
+              border-radius: 100px;
+            }
+
+div.partner div.person_info div.sound{
+              top: 40px;
+              left: 80px;
+              position: relative;
+              border-radius: 100px;
+              height: 30px;
+              width: 30px;
+              background-image: url(soundbutton.png);
+              background-size: cover;
+
+}
+
+div.partner span.username{
+  font-size: 20px;
+border-width: 2px;
+}
+
+div.partner a{
+  position: relative;
+    top: 40px;
 }
 
 /*Making the audio button visible */
