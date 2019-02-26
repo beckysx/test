@@ -449,20 +449,21 @@ input[value='Log In']{
 
 }
 
-div.partner{
+div.partners{
             display: -webkit-box;
             position: absolute;
-            left: 800px;
-            top: 210px;
+            left: 1200px;
+            top: -1px;
+            font-size: 20px;
 }
 
-div.partner div.person_info img.person_image{
+div.partners div.person_info img.person_image{
               height:60px;
               width: 60px;
               border-radius: 100px;
             }
 
-div.partner div.person_info div.sound{
+div.partners div.person_info div.sound{
               top: 40px;
               left: 80px;
               position: relative;
@@ -474,14 +475,22 @@ div.partner div.person_info div.sound{
 
 }
 
-div.partner span.username{
+div.partners span.username{
   font-size: 20px;
 border-width: 2px;
+
 }
 
-div.partner a{
+div.partners a{
   position: relative;
-    top: 40px;
+top: 20px;
+left: 120px;
+}
+
+div.partners div.person_info{
+  position: relative;
+left: -180px;
+top:20px;
 }
 
 /*Making the audio button visible */
@@ -532,20 +541,15 @@ form.assignment_form{
   font-family: cursive;
 }
 
-.assignment_title{
-    text-decoration: underline;
+
+
+form.assignment_form div.assignment_title{
     font-size: 25px;
     font-style: italic;
-    border-bottom: dotted;
-    width: 300px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 10px;
-    padding-right: 20px;
-    border-width: 2px;
     font-family: 'Cinzel', serif;
     font-weight: normal;
     margin-top: 50px;
-
+        width: 1000px;
 }
 
 .assignment-title{
@@ -560,6 +564,8 @@ form.assignment_form{
   font-weight: normal;
   margin-top: 30px;
   padding-right: 10px;
+  width: 300px;
+
 
 }
 
