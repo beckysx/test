@@ -588,6 +588,12 @@ div.assignment_prompt{
             border-top-left-radius: 30px;
 }
 
+
+div.assignment_prompt p{
+  font-family: monospace;
+  font-size: 15px;
+}
+
 div.view_text{
             border-bottom: dotted;
           border-top: none;
